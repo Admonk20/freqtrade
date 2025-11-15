@@ -100,10 +100,8 @@ target/
 # pyenv
 .python-version
 
-.env
 .venv
 .idea
-.vscode
 
 .pytest_cache/
 .mypy_cache/
@@ -116,3 +114,5 @@ target/
 !config_examples/config_freqai.example.json
 
 docker-compose-*.yml
+config.bat
+node_modules
